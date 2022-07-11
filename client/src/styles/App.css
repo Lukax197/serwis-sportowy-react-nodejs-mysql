@@ -1,0 +1,247 @@
+.App {
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  /* height: 100%; */
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form input {
+  width: 300px;
+  height: 60px;
+  margin: 10px;
+  font-size: 25px;
+}
+
+.card {
+  width: 800px;
+  margin: 40px;
+  padding: 20px;
+  border-radius: 10px;
+  border: 5px solid #18e1a8;
+}
+
+.card:hover {
+  text-decoration: underline #18e1a8;
+  -webkit-transition: text-decoration .7s ease-in-out;
+  transition: text-decoration .7s ease-in-out;
+}
+
+.card:hover .zdjPost {
+  width: 71%;
+  opacity: 90%;
+  -webkit-transition: width .7s ease-in-out;
+  transition: width .7s ease-in-out;
+}
+
+.postDetailsLink {
+  text-decoration: none;
+  color: black;
+}
+
+#updateInput {
+  width: 100px;
+  height: 20px;
+}
+
+#logo {
+  height: 100px;
+}
+
+header{
+  width: 98%;
+  background-color: #161e1e;
+  align-items: center;
+  display: flex;
+  padding: 20px;
+}
+
+.header_item {
+  width: 20%;
+  display: inline-flex;
+  align-items: center;
+  display: flex;
+  color: aliceblue;
+}
+
+.header_menu {
+  width: 45%;
+  display: inline-flex;
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+  height: 40%;
+  background-color: #13c1a3;
+  margin: 50px;
+  padding: 20px;
+}
+
+.header_menu:hover {
+  background-color: #18e1a8;
+}
+
+.tytul {
+  margin-left: 50px;
+  color: white;
+  text-decoration: none;
+}
+
+#napis {
+  padding: 10px;
+}
+
+#napis2 {
+  text-decoration: underline #13c1a3;
+}
+
+footer {
+  height: 10%;
+  width: 98%;
+  color: aliceblue;
+  text-align: center;
+  padding: 20px;
+  background-color: #161e1e;
+}
+
+#menu{
+  height: 90%;
+  width: 60%;
+  display: inline-flex;
+  align-items: center;
+  display: flex;
+}
+
+.zdjPost {
+  width: 70%;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.post {
+  text-align: center;
+  width: 100%;
+}
+
+.card_post {
+  width: 900px; 
+  margin: 40px;
+  padding: 20px;
+  border-radius: 10px;
+  border: 5px solid #18e1a8;
+  display: inline-block;
+  text-align: left;
+}
+
+.card_post .zdjeciePost {
+  width: 100%;
+}
+
+.postTekst {
+  font-size: 18px;
+}
+
+.tytulPost {
+  font-size: 30px;
+}
+
+.komentarz {
+  padding: 8px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.komentarz .oceny {
+  text-align: center;
+}
+
+.postButton {
+  margin: 10px;
+  cursor: pointer;
+}
+
+.postButton:hover {
+  opacity: 70%;
+}
+
+.options {
+  text-align: right;
+}
+
+.but_icon {
+  height: 30px;
+}
+
+.dodajPost {
+  text-align: center;
+}
+
+.formElement {
+  margin: 10px;
+}
+
+.inputElement {
+  width: 50%;
+  height: 50px;
+}
+
+.inputElement:focus {
+  outline: 2px solid #13c1a3;
+  background-color: #90F8E6;
+}
+
+.edytujPost {
+  text-align: center;
+}
+
+.ikonka {
+  width: 200px;
+  margin: 10px;
+}
+
+.komBut {
+  margin: 10px;
+  padding: 10px;
+}
+
+.komBut:hover {
+  cursor: pointer;
+  background-color: #90F8E6;
+  outline: 2px solid #13c1a3;
+}
+
+.remove_but {
+  width: 20px;
+}
+
+.remove_but:hover {
+  opacity: 70%;
+  cursor: pointer;
+}
+
+.oceny {
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  align-items: center
+}
+
+.ocenaZnak {
+  display: inline-flex;
+}
+
+.ocenaZnak:hover {
+  display: inline-flex;
+  opacity: 70%;
+  cursor: pointer;
+}
+
+.znakZdj {
+  width: 20px;
+  padding: 10px;
+}
